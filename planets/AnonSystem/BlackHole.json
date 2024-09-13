@@ -1,0 +1,34 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Divine Devourer",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"Base": {
+		"surfaceGravity": 500,
+		"surfaceSize": 2500,
+		"gravityFallOff": "inverseSquared",
+		"centerOfSolarSystem": true
+	},
+	"Orbit": {
+		"isStatic": true
+	},
+    "MapMarker": {
+        "enabled": true
+    },
+	"isStellarRemnant": true,
+	"Rings": [
+		{
+			"fluidType": "plasma",
+			"rotationSpeed": 80,
+			"outerRadius": 3500,
+			"texture": "assets/Texture/ringoffire.png"
+		}
+	],
+	"Props": {
+		"singularities": [
+			{
+				"horizonRadius": 3000,
+				"type": "blackHole"
+			}
+		]
+	}
+}

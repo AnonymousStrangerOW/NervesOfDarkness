@@ -1,0 +1,252 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Distant Enigma",
+	"starSystem": "AnonymousStrangerOW.StrangerSystem",
+	"isQuantumState": true,
+	"AmbientLights": [
+		{
+			"outerRadius": 400,
+			"tint": {
+				"r": 117,
+				"g": 72,
+				"b": 104
+			},
+			"intensity": 0.7
+		}
+	],
+	"Atmosphere": {
+		"size": 400,
+		"fogSize": 400,
+		"atmosphereTint": {
+			"r": 117,
+			"g": 72,
+			"b": 104,
+			"a": 128
+		},
+		"fogTint": {
+			"r": 117,
+			"g": 72,
+			"b": 104,
+			"a": 128
+		}
+	},
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 200
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/sedna.png",
+			"normalTile": "assets/Texture/sedna_n.png",
+			"smoothnessTile": "assets/Texture/sedna_h.png",
+			"size": 20
+		},
+		"blueTile": {
+			"textureTile": "assets/Texture/waterstone.png",
+			"normalTile": "assets/Texture/waterstone_n.png",
+			"smoothnessTile": "assets/Texture/waterstone_h.png",
+			"size": 20
+		},
+		"tileBlendMap": "assets/Texture/quantum_state1_r.png",
+		"heightMap": "assets/Texture/quantum_state1_h.png",
+		"textureMap": "assets/Texture/quantum_lod_2.png",
+		"minHeight": 100,
+		"maxHeight": 200,
+		"smoothness": 1
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Water": {
+		"size": 197,
+		"buoyancy": 0,
+		"tint": {
+			"r": 42,
+			"g": 1,
+			"b": 84,
+			"a": 0
+		}
+	},
+	"Volumes": {
+		"hazardVolumes": [
+			{
+				"radius": 197,
+				"damagePerSecond": 20,
+				"firstContactDamage": 60,
+				"type": "riverHeat"
+			}
+		],
+		"oxygenVolumes": [
+			{
+				"parentPath": "Sector/PlantedTreeHOME",
+				"isRelativeToParent": true,
+				"radius": 30
+			}
+		]
+	},
+	"Props": {
+		"signals": [
+			{
+				"frequency": "Quantum",
+				"name": "Distant Enigma",
+				"identificationRadius": 500,
+				"audio": "OW_QuantumSignal"
+			}
+		],
+		"dialogue": [
+			{
+				"xmlFile": "dialogue/QuantumPlanet/LabState2/Rubble.xml",
+				"parentPath": "Sector-2/QuantumResearchLabBroken/Interactables/Text/Rubble/Arc_TestAlienWriting/Dialogue",
+				"isRelativeToParent": true
+			}
+		],
+		"scatter": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/StrangerQuantumStall.prefab",
+				"count": 10,
+				"minHeight": 200,
+				"keepLoaded": true,
+				"seed": 128
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L1.prefab",
+				"count": 50,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L2.prefab",
+				"count": 50,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_L3.prefab",
+				"count": 50,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S1.prefab",
+				"count": 100,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S2.prefab",
+				"count": 100,
+				"minHeight": 200,
+				"keepLoaded": true
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/Rocks/ENIGMAROCK_S3.prefab",
+				"count": 100,
+				"minHeight": 200,
+				"keepLoaded": true
+			}
+		],
+		"details": [
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Tent.prefab",
+				"rename": "STATE2_TENT",
+				"position": {
+					"x": -27.7373,
+					"y": 199.4603,
+					"z": 16.1474
+				},
+				"rotation": {
+					"x": 350.6881,
+					"y": 112.6797,
+					"z": 0.5056
+				}
+			},
+			{
+				"path": "Sector/RINGEDGIANT_ISLAND2/Building/PlantedTreeHOME",
+				"removeChildren": [ "OxygenVolume" ],
+				"scale": 0.2712,
+				"position": {
+					"x": -28.6809,
+					"y": 197.7707,
+					"z": 7.0547
+				},
+				"rotation": {
+					"x": 4.4354,
+					"y": 338.99,
+					"z": 7.0087
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/QuantumResearchLabBroken.prefab",
+				"position": {
+					"x": -197.3105,
+					"y": -12.3961,
+					"z": 31.1509
+				},
+				"rotation": {
+					"x": 338.1253,
+					"y": 191.1774,
+					"z": 266.4905
+				}
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/NormalFire_Stranger.prefab",
+				"position": {
+					"x": -28.8592,
+					"y": 197.3669,
+					"z": 14.2807
+				},
+				"rotation": {
+					"x": 7.7339,
+					"y": 265.4199,
+					"z": 354.4846
+				}
+			},
+			{
+				"path": "Sector_BH/Sector_Crossroads/Interactables_Crossroads/VisibleFrom_BH/Prefab_HEA_Campfire",
+				"parentPath": "Sector-2/NormalFire_Stranger",
+				"isRelativeToParent": true,
+				"removeChildren": [
+					"Effects",
+					"Props_HEA_Campfire"
+				]
+			},
+			{
+				"assetBundle": "assets/AssetBundle/strangerbundle",
+				"path": "Assets/Enigma/EnigmaInterface.prefab",
+				"position": {
+					"x": -145.6181,
+					"y": -133.3766,
+					"z": -19.6035
+				},
+				"rotation": {
+					"x": 330.8011,
+					"y": 321.4586,
+					"z": 140.5371
+				}
+			}
+		]
+	},
+	"ParticleFields": [
+		{
+			"type": "snowflakesHeavy"
+		}
+	],
+	"canShowOnTitle": false,
+	"ShipLog": {
+		"spriteFolder": "assets/Texture/Shiplog",
+		"mapMode": {
+			"revealedSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI.png",
+			"outlineSprite": "assets/Texture/Shiplog/QUANTUMPLANET_UI_O.png"
+		}
+	}
+}
