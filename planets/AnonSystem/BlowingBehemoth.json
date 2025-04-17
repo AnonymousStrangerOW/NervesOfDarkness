@@ -1,0 +1,114 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Blowing Behemoth",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"AmbientLights": [
+		{
+			"outerRadius": 1100,
+			"innerRadius": 990,
+			"isShell": true,
+			"intensity": 2,
+			"tint": {
+				"b": 255
+			}
+		},
+		{
+			"outerRadius": 990,
+			"innerRadius": 50,
+			"isShell": true,
+			"intensity": 2,
+			"tint": {
+				"b": 255
+			}
+		},
+		{
+			"outerRadius": 2000,
+			"innerRadius": 50,
+			"isShell": true,
+			"intensity": 0.5,
+			"position": {
+				"y": -1900
+			},
+			"tint": {
+				"b": 255
+			}
+		}
+	],
+	"Atmosphere": {
+		"size": 1200,
+		"fogSize": 1200,
+		"clouds": {
+			"unlit": true,
+			"capPath": "assets/Texture/behemoth_cap.png",
+			"texturePath": "assets/Texture/behemoth_clouds.png",
+			"cloudsPrefab": "giantsDeep",
+			"fluidType": "cloud",
+			"outerCloudRadius": 1200,
+			"innerCloudRadius": 1000,
+			"hasLightning": false,
+			"rotationSpeed": 3,
+			"tint": {
+				"b": 255
+			}
+		},
+		"atmosphereTint": {
+			"b": 191
+		},
+		"fogTint": {
+			"b": 255,
+			"a": 255
+		}
+	},
+	"Base": {
+		"surfaceGravity": 20,
+		"surfaceSize": 350
+	},
+	"Orbit": {
+		"isTidallyLocked": true,
+		"semiMajorAxis": 33000,
+		"inclination": 45,
+		"primaryBody": "Divine Devourer",
+		"trueAnomaly": 70,
+		"axialTilt": 5,
+		"tint": {
+			"b": 191
+		}
+	},
+	"Props": {
+		"singularities": [
+			{
+				"rename": "RepelWH",
+				"type": "whiteHole",
+				"hasWarpEffects": false,
+				"horizonRadius": 350,
+				"uniqueID": "RepelWH"
+			}
+		],
+		"details": [
+			{
+				"path": "Sector/Clouds/BottomClouds",
+				"scale": 335
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/Neptune.ogg",
+				"volume": 0.4,
+				"randomizePlayhead": true,
+				"priority": 0,
+				"track": "music",
+				"radius": 1000
+			}
+		]
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"removeChildren": [
+		"Sector/RepelWH/WhiteHoleRenderer",
+		"Sector/RepelWH/WhiteHoleAmbience"
+	],
+	"canShowOnTitle": false
+}

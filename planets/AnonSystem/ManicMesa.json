@@ -1,0 +1,83 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Manic Mesa",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"AmbientLights": [
+		{
+			"intensity": 1,
+			"innerRadius": 100,
+			"outerRadius": 130,
+			"tint": {
+				"r": 214,
+				"g": 122,
+				"b": 0,
+				"a": 0
+			}
+		}
+	],
+	"Orbit": {
+		"primaryBody": "Doomed Daylight",
+		"semiMajorAxis": 8000,
+		"eccentricity": 0.9,
+		"trueAnomaly":  180
+	},
+	"Atmosphere": {
+		"size": 200,
+		"hasShockLayer": true,
+		"atmosphereTint": {
+			"r": 171,
+			"g": 97,
+			"b": 0,
+			"a": 0
+		},
+		"fogSize": 130,
+		"fogTint": {
+			"r": 171,
+			"g": 97,
+			"b": 12,
+			"a": 0
+		}
+	},
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 100,
+		"hasFluidDetector": false
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"canShowOnTitle": false,
+	"Props": {
+		"details": [
+			{
+				"path": "Sector_TowerTwin/Sector_TimeLoopInterior/Geometry_TimeLoopInterior/innerShell",
+				"ignoreSun": true,
+				"scale": 3
+			}
+		]
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/sand.png",
+			"normalTile": "assets/Texture/sand_n.png",
+			"smoothnessTile": "assets/Texture/sand_h.png",
+			"size": 20
+		},
+		"textureMap": "assets/Texture/crimsonmoon_lod.png",
+		"heightMap": "assets/Texture/desert_h.png",
+		"tileBlendMap": "assets/Texture/dbm_r.png",
+		"minHeight": 110,
+		"maxHeight": 120
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/Mars.ogg",
+				"volume": 0.4,
+				"priority": 0,
+				"track": "music",
+				"radius": 200
+			}
+		]
+	}
+}

@@ -1,0 +1,104 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Purple Partition",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"AmbientLights": [
+		{
+			"outerRadius": 400,
+			"tint": {
+				"r": 117,
+				"g": 72,
+				"b": 104
+			},
+			"intensity": 0.7
+		}
+	],
+	"Atmosphere": {
+		"size": 400,
+		"fogSize": 400,
+		"atmosphereTint": {
+			"r": 117,
+			"g": 72,
+			"b": 104,
+			"a": 128
+		},
+		"fogTint": {
+			"r": 117,
+			"g": 72,
+			"b": 104,
+			"a": 128
+		}
+	},
+	"Base": {
+		"surfaceGravity": 12,
+		"surfaceSize": 200
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/sedna.png",
+			"normalTile": "assets/Texture/sedna_n.png",
+			"smoothnessTile": "assets/Texture/sedna_h.png",
+			"size": 20
+		},
+		"blueTile": {
+			"textureTile": "assets/Texture/ice.png",
+			"normalTile": "assets/Texture/ice_n.png",
+			"smoothnessTile": "assets/Texture/ice_h.png",
+			"size": 20
+		},
+		"tileBlendMap": "assets/Texture/quantum_state1_r.png",
+		"heightMap": "assets/Texture/quantum_state1_h.png",
+		"textureMap": "assets/Texture/quantum_lod_1.png",
+		"minHeight": 170,
+		"maxHeight": 200,
+		"smoothness": 1
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Orbit": {
+		"semiMajorAxis": 15000,
+		"eccentricity": 0.15,
+		"inclination": 45,
+		"primaryBody": "Divine Devourer",
+		"trueAnomaly": 45,
+		"axialTilt": 17,
+		"tint": {
+			"r": 105,
+			"g": 0,
+			"b": 72
+		}
+	},
+	"Spawn": {
+		"playerSpawnPoints": [
+			{
+				"startWithSuit": true,
+				"position": {
+					"x": -29.2939,
+					"y": 197.2334,
+					"z": 16.8324
+				},
+				"rotation": {
+					"x": 353.8944,
+					"y": 172.3454,
+					"z": 350.7578
+				}
+			}
+		],
+		"shipSpawnPoints": [
+			{
+				"position": {
+					"x": -29.2939,
+					"y": 207.2334,
+					"z": 16.8324
+				},
+				"rotation": {
+					"x": 353.8944,
+					"y": 192.3454,
+					"z": 350.7578
+				}
+			}
+		]
+	},
+	"canShowOnTitle": false
+}

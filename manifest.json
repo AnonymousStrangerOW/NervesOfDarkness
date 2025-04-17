@@ -1,10 +1,10 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
-  "filename": "TheStrangerTheyAre.dll",
+  "filename": "AnonsSystem.dll",
   "author": "AnonymousStrangerOW",
-  "name": "The Stranger They Are",
-  "uniqueName": "AnonymousStrangerOW.TheStrangerTheyAre",
+  "name": "Anon's System",
+  "uniqueName": "AnonymousStrangerOW.AnonsSystem",
   "version": "0.1.0",
-  "owmlVersion": "2.11.1",
+  "owmlVersion": "2.15.1",
   "dependencies": ["xen.NewHorizons"]
 }

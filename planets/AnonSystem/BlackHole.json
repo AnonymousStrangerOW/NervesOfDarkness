@@ -3,32 +3,53 @@
 	"name": "Divine Devourer",
 	"starSystem": "AnonymousStrangerOW.AnonsSystem",
 	"Base": {
-		"surfaceGravity": 500,
-		"surfaceSize": 2500,
-		"gravityFallOff": "inverseSquared",
-		"centerOfSolarSystem": true
+		"surfaceSize": 4000,
+		"surfaceGravity": 80,
+		"gravityFallOff": "inverseSquared"
 	},
 	"Orbit": {
-		"isStatic": true
+		"primaryBody": "Barycenter",
+		"semiMajorAxis": 5000,
+		"trueAnomaly": 0,
+		"isMoon": true,
+		"showOrbitLine": false
 	},
-    "MapMarker": {
-        "enabled": true
-    },
-	"isStellarRemnant": true,
-	"Rings": [
-		{
-			"fluidType": "plasma",
-			"rotationSpeed": 80,
-			"outerRadius": 3500,
-			"texture": "assets/Texture/ringoffire.png"
+	"Star": {
+		"lifespan": 999,
+		"size": 800,
+		"lightRadius": 60000,
+		"tint": {
+			"r": 94,
+			"g": 115,
+			"b": 255,
+			"a": 255
+		},
+		"lightTint": {
+			"r": 0,
+			"g": 0,
+			"b": 0,
+			"a": 255
 		}
-	],
+	},
+	"MapMarker": {
+		"enabled": true
+	},
 	"Props": {
 		"singularities": [
 			{
-				"horizonRadius": 3000,
+				"horizonRadius": 1600,
+				"distortRadius": 3200,
 				"type": "blackHole"
 			}
 		]
-	}
+	},
+	"Rings": [
+		{
+			"innerRadius": 50,
+			"outerRadius": 11000,
+			"inclination": 40,
+			"rotationSpeed": 2,
+			"texture": "assets/Texture/ringoffire.png"
+		}
+	]
 }

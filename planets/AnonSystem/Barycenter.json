@@ -1,0 +1,20 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Barycenter",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"MapMarker": {
+		"enabled": false
+	},
+	"canShowOnTitle": false,
+	"Base": {
+		"centerOfSolarSystem": true,
+		"showMinimap": false
+	},
+	"FocalPoint": {
+		"primary": "Divine Devourer",
+		"secondary": "Doomed Daylight"
+	},
+	"Orbit": {
+		"isStatic": true
+	}
+}

@@ -1,0 +1,200 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Frigid Fog",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"AmbientLights": [
+		{
+			"outerRadius": 300,
+			"innerRadius": 50,
+			"isShell": true,
+			"intensity": 1
+		}
+	],
+	"Atmosphere": {
+		"clouds": {
+			"texturePath": "assets/Texture/frigid_clouds.png",
+			"capPath": "assets/Texture/frigid_cap.png",
+			"cloudsPrefab": "quantumMoon",
+			"unlit": true,
+			"rampPath": "assets/Texture/frigid_ramp.png",
+			"outerCloudRadius": 300,
+			"innerCloudRadius": 250,
+			"fluidType": "cloud",
+			"tint": {
+				"r": 230,
+				"g": 230,
+				"b": 230
+			}
+		},
+		"atmosphereSunIntensity": 3,
+		"size": 300,
+		"atmosphereTint": {
+			"r": 230,
+			"g": 230,
+			"b": 230,
+			"a": 255
+		},
+		"fogSize": 250,
+		"fogTint": {
+			"r": 230,
+			"g": 230,
+			"b": 230,
+			"a": 255
+		}
+	},
+	"Bramble": {
+		"nodes": [
+			{
+				"scale": 3.5,
+				"name": "AAAAA",
+				"hasFogLight": false,
+				"linksTo": "AAAAAAAAAAA"
+			}
+		]
+	},
+	"removeChildren": [
+		"Sector/AAAAA/Terrain_DB_BrambleSphere_Inner_v2",
+		"Sector/AAAAA/FogWarpExitPoints",
+		"Sector/AAAAA/Effects/PointLight_DB_FogLight",
+		"Sector/AAAAA/Effects/DB_BrambleLightShafts",
+		"Sector/AAAAA/Effects/FogOverrideVolume",
+		"Sector/AAAAA/Effects/InnerWarpFogGlow"
+	],
+	"Base": {
+		"surfaceGravity": 10,
+		"surfaceSize": 175
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/snowrock.png",
+			"normalTile": "assets/Texture/snowrock_n.png",
+			"smoothnessTile": "assets/Texture/snowrock_h.png",
+			"size": 20
+		},
+		"blueTile": {
+			"textureTile": "assets/Texture/ice.png",
+			"normalTile": "assets/Texture/ice_n.png",
+			"smoothnessTile": "assets/Texture/ice_h.png",
+			"size": 20
+		},
+		"tileBlendMap": "assets/Texture/quantum_state1_r.png",
+		"heightMap": "assets/Texture/quantum_state1_h.png",
+		"minHeight": 173,
+		"maxHeight": 175
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"canShowOnTitle": false,
+	"Orbit": {
+		"semiMajorAxis": 5000,
+		"inclination": 45,
+		"primaryBody": "Blowing Behemoth",
+		"trueAnomaly": 256,
+		"axialTilt": 90,
+		"tint": {
+			"r": 230,
+			"g": 230,
+			"b": 230
+		}
+	},
+	"Props": {
+		"details": [
+			{
+				"path": "Sector/AAAAA"
+			}
+		]
+	},
+	"Volumes": {
+		"audioVolumes": [
+			{
+				"audio": "assets/Audio/Winter.ogg",
+				"volume": 0.4,
+				"priority": 0,
+				"track": "music",
+				"radius": 300
+			},
+			{
+				"audio": "assets/Audio/blizzard.mp3",
+				"volume": 0.4,
+				"priority": 0,
+				"track": "environment",
+				"radius": 300
+			}
+		]
+	},
+	"ParticleFields": [
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		},
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		},
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		},
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		},
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		},
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		},
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		},
+		{
+			"type": "snowflakesHeavy",
+			"densityByHeightCurve": [
+				{
+					"height": 300,
+					"density": 1000
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,79 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Doomed Daylight",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"Base": {
+		"surfaceGravity": 100,
+		"surfaceSize": 1000,
+		"gravityFallOff": "inverseSquared"
+	},
+	"Orbit": {
+		"primaryBody": "Barycenter",
+		"semiMajorAxis": 8000,
+		"trueAnomaly": 180,
+		"inclination": 45,
+		"eccentricity": 0.4,
+		"isTidallyLocked": true
+	},
+	"Atmosphere": {
+		"size": 1100,
+		"fogTint": {
+			"r": 199,
+			"g": 67,
+			"b": 58,
+			"a": 255
+		},
+		"fogDensity": 0.4,
+		"fogSize": 1100
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"CometTail": {
+		"dustTint": {
+			"r": 255,
+			"g": 210
+		},
+		"gasTint": {
+			"r": 255,
+			"g": 210
+		},
+		"rotationOverride": {
+			"x": 359.9161
+		}
+	},
+	"Star": {
+		"size": 1000,
+		"tint": {
+			"r": 255,
+			"g": 210,
+			"b": 0,
+			"a": 255
+		},
+		"endTint": {
+			"r": 255,
+			"g": 99,
+			"b": 0,
+			"a": 255
+		},
+		"solarLuminosity": 0.8,
+		"curve": [
+			{
+				"time": 0,
+				"value": 1
+			},
+			{
+				"time": 23,
+				"value": 1.5
+			},
+			{
+				"time": 31,
+				"value": 2.5
+			}
+		],
+		"lightRadius": 20000,
+		"stellarDeathType": "planetaryNebula",
+		"lifespan": 11,
+		"supernovaSize": 20000
+	}
+}

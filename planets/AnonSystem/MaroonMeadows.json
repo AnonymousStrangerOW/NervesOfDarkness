@@ -1,0 +1,79 @@
+{
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"name": "Maroon Meadows",
+	"starSystem": "AnonymousStrangerOW.AnonsSystem",
+	"AmbientLights": [
+		{
+			"intensity": 1.4,
+			"innerRadius": 180,
+			"outerRadius": 450
+		}
+	],
+	"Atmosphere": {
+		"size": 500,
+		"fogSize": 500,
+		"atmosphereSunIntensity": 1,
+		"hasOxygen": true,
+		"hasTrees": true,
+		"hasShockLayer": true,
+		"atmosphereTint": {
+			"r": 0,
+			"g": 255,
+			"b": 213,
+			"a": 128
+		},
+		"fogTint": {
+			"r": 0,
+			"g": 255,
+			"b": 213,
+			"a": 128
+		}
+	},
+	"Base": {
+		"surfaceGravity": 14,
+		"surfaceSize": 200
+	},
+	"HeightMap": {
+		"redTile": {
+			"textureTile": "assets/Texture/grass.png",
+			"normalTile": "assets/Texture/grass_normal.png",
+			"size": 5
+		},
+		"blueTile": {
+			"textureTile": "assets/Texture/cliffs.png",
+			"normalTile": "assets/Texture/cliffs_n.png",
+			"size": 5
+		},
+		"resolution": 1024,
+		"heightMap": "assets/Texture/homemoon_h.png",
+		"tileBlendMap": "assets/Texture/homemoon_r.png",
+		"textureMap": "assets/Texture/homemoon_lod.png",
+		"minHeight": 170,
+		"maxHeight": 210
+	},
+	"MapMarker": {
+		"enabled": true
+	},
+	"Water": {
+		"size": 180,
+		"tint": {
+			"r": 19,
+			"g": 143,
+			"b": 128
+		}
+	},
+	"Orbit": {
+		"semiMajorAxis": 22000,
+		"eccentricity": 0.15,
+		"inclination": 45,
+		"primaryBody": "Divine Devourer",
+		"trueAnomaly": 45,
+		"axialTilt": 62,
+		"tint": {
+			"r": 166,
+			"g": 0,
+			"b": 0
+		}
+	},
+	"canShowOnTitle": false
+}
