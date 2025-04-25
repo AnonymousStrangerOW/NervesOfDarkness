@@ -4,6 +4,7 @@ this project a reality.
 
 nerves of darkness takes place in a system of planets (in this case "blanets") orbiting a supermassive black hole, which is also sucking the life out of a nearby star. the star exploded a bit before the time loop starts, as giant stars are the ones to go out first.
 as for how i wanted the mod to start, i wanted to do something with the ash twin project black hole but i haven't figured out anything that makes sense on how we can warp there.
+
 ![image3](https://github.com/user-attachments/assets/01c13689-5418-4dcf-a1e6-7b01d34db231)
 
 # player goals:
