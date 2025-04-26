@@ -310,7 +310,7 @@
           "lib/netstandard.dll": {}
         }
       },
-      "OWML/2.14.0": {
+      "OWML/2.15.1": {
         "type": "package",
         "dependencies": {
           "HarmonyX": "2.5.5",
@@ -558,10 +558,10 @@
         "outerwildsgamelibs.nuspec"
       ]
     },
-    "OWML/2.14.0": {
-      "sha512": "uyUdmKhofh+f1birgsdcSJVEqqq+8tdSd3uiI4A+onIkiC1TLXHkm6EC1eZu4MAQa8IP+UMi0En+9Vx86eo6+g==",
+    "OWML/2.15.1": {
+      "sha512": "1fsBqEHwVh8s0jcZPdQklDgCxP1NoPtMRsOkZS8KvdpuqSkdQURTcEt47nwrE9IMj22x1BQt21A4NQ9F99edsg==",
       "type": "package",
-      "path": "owml/2.14.0",
+      "path": "owml/2.15.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -576,31 +576,36 @@
         "lib/net48/OWML.ModHelper.dll",
         "lib/net48/OWML.Utils.dll",
         "lib/net48/OWML.Utils.xml",
-        "owml.2.14.0.nupkg.sha512",
+        "owml.2.15.1.nupkg.sha512",
         "owml.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "OWML >= 2.14.0",
+      "OWML >= 2.15.1",
       "OuterWildsGameLibs >= 1.1.15.1018"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jn7jn\\.nuget\\packages\\": {}
+    "C:\\Users\\noahp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jn7jn\\source\\repos\\AnonsSystem\\AnonsSystem\\AnonsSystem.csproj",
-      "projectName": "AnonsSystem",
-      "projectPath": "C:\\Users\\jn7jn\\source\\repos\\AnonsSystem\\AnonsSystem\\AnonsSystem.csproj",
-      "packagesPath": "C:\\Users\\jn7jn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jn7jn\\source\\repos\\AnonsSystem\\AnonsSystem\\obj\\",
+      "projectUniqueName": "S:\\NervesOfDarkness\\NervesOfDarkness.csproj",
+      "projectName": "NervesOfDarkness",
+      "projectPath": "S:\\NervesOfDarkness\\NervesOfDarkness.csproj",
+      "packagesPath": "C:\\Users\\noahp\\.nuget\\packages\\",
+      "outputPath": "S:\\NervesOfDarkness\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\jn7jn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\noahp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -608,7 +613,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "C:\\Users\\noahp\\source\\packages": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.bepinex.dev/v3/index.json": {},
+        "https://nuget.samboy.dev/v3/index.json": {},
+        "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet-tools/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net48": {
@@ -620,11 +630,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -633,14 +638,14 @@
         "dependencies": {
           "OWML": {
             "target": "Package",
-            "version": "[2.14.0, )"
+            "version": "[2.15.1, )"
           },
           "OuterWildsGameLibs": {
             "target": "Package",
             "version": "[1.1.15.1018, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

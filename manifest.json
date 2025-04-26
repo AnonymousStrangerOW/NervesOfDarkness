@@ -1,9 +1,9 @@
 {
   "$schema": "https://raw.githubusercontent.com/ow-mods/owml/master/schemas/manifest_schema.json",
-  "filename": "AnonsSystem.dll",
+  "filename": "NervesOfDarkness.dll",
   "author": "AnonymousStrangerOW",
-  "name": "Anon's System",
-  "uniqueName": "AnonymousStrangerOW.AnonsSystem",
+  "name": "Nerves Of Darkness",
+  "uniqueName": "AnonymousStrangerOW.NervesOfDarkness",
   "version": "0.1.0",
   "owmlVersion": "2.15.1",
   "dependencies": ["xen.NewHorizons"]

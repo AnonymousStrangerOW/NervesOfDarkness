@@ -3,11 +3,11 @@ using OWML.Common;
 using OWML.ModHelper;
 using System.Reflection;
 
-namespace AnonsSystem
+namespace NervesOfDarkness
 {
-    public class AnonsSystem : ModBehaviour
+    public class NervesOfDarkness : ModBehaviour
     {
-        public static AnonsSystem Instance;
+        public static NervesOfDarkness Instance;
         public INewHorizons NewHorizons;
 
         public void Awake()
@@ -21,13 +21,13 @@ namespace AnonsSystem
         public void Start()
         {
             // Starting here, you'll have access to OWML's mod helper.
-            ModHelper.Console.WriteLine($"My mod {nameof(AnonsSystem)} is loaded!", MessageType.Success);
+            ModHelper.Console.WriteLine($"My mod {nameof(NervesOfDarkness)} is loaded!", MessageType.Success);
 
             // Get the New Horizons API and load configs
             NewHorizons = ModHelper.Interaction.TryGetModApi<INewHorizons>("xen.NewHorizons");
             NewHorizons.LoadConfigs(this);
 
-            new Harmony("AnonymousStrangerOW.AnonsSystem").PatchAll(Assembly.GetExecutingAssembly());
+            new Harmony("AnonymousStrangerOW.NervesOfDarkness").PatchAll(Assembly.GetExecutingAssembly());
 
             // Example of accessing game code.
             OnCompleteSceneLoad(OWScene.TitleScreen, OWScene.TitleScreen); // We start on title screen

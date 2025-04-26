@@ -1,16 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "c3KqPKkQnFs=",
+  "dgSpecHash": "25in9VYu0Mn4gl5DeHBJnZ1evTyScTUAVZ3zzD7KtC26ztQaPgh15Jn1bVvZdDSSE5TAkFPi4lWSP7E+YjHHDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jn7jn\\source\\repos\\AnonsSystem\\AnonsSystem\\AnonsSystem.csproj",
+  "projectFilePath": "S:\\NervesOfDarkness\\NervesOfDarkness.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jn7jn\\.nuget\\packages\\harmonyx\\2.5.5\\harmonyx.2.5.5.nupkg.sha512",
-    "C:\\Users\\jn7jn\\.nuget\\packages\\json.net.unity3d\\9.0.1\\json.net.unity3d.9.0.1.nupkg.sha512",
-    "C:\\Users\\jn7jn\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512",
-    "C:\\Users\\jn7jn\\.nuget\\packages\\monomod.runtimedetour\\21.8.19.1\\monomod.runtimedetour.21.8.19.1.nupkg.sha512",
-    "C:\\Users\\jn7jn\\.nuget\\packages\\monomod.utils\\21.8.19.1\\monomod.utils.21.8.19.1.nupkg.sha512",
-    "C:\\Users\\jn7jn\\.nuget\\packages\\outerwildsgamelibs\\1.1.15.1018\\outerwildsgamelibs.1.1.15.1018.nupkg.sha512",
-    "C:\\Users\\jn7jn\\.nuget\\packages\\owml\\2.14.0\\owml.2.14.0.nupkg.sha512"
+    "C:\\Users\\noahp\\.nuget\\packages\\harmonyx\\2.5.5\\harmonyx.2.5.5.nupkg.sha512",
+    "C:\\Users\\noahp\\.nuget\\packages\\json.net.unity3d\\9.0.1\\json.net.unity3d.9.0.1.nupkg.sha512",
+    "C:\\Users\\noahp\\.nuget\\packages\\mono.cecil\\0.11.4\\mono.cecil.0.11.4.nupkg.sha512",
+    "C:\\Users\\noahp\\.nuget\\packages\\monomod.runtimedetour\\21.8.19.1\\monomod.runtimedetour.21.8.19.1.nupkg.sha512",
+    "C:\\Users\\noahp\\.nuget\\packages\\monomod.utils\\21.8.19.1\\monomod.utils.21.8.19.1.nupkg.sha512",
+    "C:\\Users\\noahp\\.nuget\\packages\\outerwildsgamelibs\\1.1.15.1018\\outerwildsgamelibs.1.1.15.1018.nupkg.sha512",
+    "C:\\Users\\noahp\\.nuget\\packages\\owml\\2.15.1\\owml.2.15.1.nupkg.sha512"
   ],
   "logs": []
 }
