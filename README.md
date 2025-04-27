@@ -52,7 +52,20 @@ as for how i wanted the mod to start, i wanted to do something with the ash twin
 - they communicate through sound, navigate through sound, and hate the light. unlike most organisms, these fellows emit sound from their palms as they have no mouth.
 - their kill method if you use a flashlight on them, strangle from behind (although they teleport behind you instantly and kill you before you can even see them). because you encounter them in pure darkness, these fellows won't have too many animations except for an idle and maybe one at the eye.
 - the whole idea is to figure out how to not make them kill you, which is stop using your flashlight. then you can be friendly with them.
+
 ![image2](https://github.com/user-attachments/assets/e110ca46-deb7-4291-b5b7-c1142e134b12)
+
+# black hole puzzle
+- the black hole entry puzzle is set up in a similar way to the quantum moon puzzle. you need to learn some rules to get in. the rules are based off of real theories scientists have for a human to potentially survive past the event horizon of a supermassive black hole.
+- rule 1: the tidal forces at the event horizon will get weaker as the black hole's radius goes.
+- rule 2: you have to be slow and careful entering the black hole, a certain speed must be obtained before passing the event horizon.
+- rule 3: to avoid the danger of potential jets and the accretion disk, you have to enter the black hole somewhere around 45 degrees above the accretion disk. don't enter directly from the poles or touch the accretion disk.
+- rule 1 in practice: you have to wait for the black hole to swallow up every single planet towards the end of the loop where it reaches its biggest size.
+- rule 2 in practice: you have to enter slowly at speeds of 1m/s. you will have to try to push against the black hole.
+- rule 3 in practice: the planets in the system are oriented 45 degrees above the solar plane and can be used to find the safe way to enter. go ahead change the black hole's inclination to 0 in nh those who are interested in reviving the mod. i made it 45 by the rest but it shouldn't be.
+- this will be very tricky to implement in audible format, but if necessary, resort to visual clues.
+
+![image12](https://github.com/user-attachments/assets/914cf10d-ff04-4b77-be3f-799ae86115a5)
 
 # misc notes, from discord messages:
 in my idea, i would not only have those tape players that are simply "click to play audio", but i will also have radios that require tuning to get the right message or to learn a new frequency. although my idea would have its communications be entirely done through audio with no text and minimal imagery (maybe a few symbols if needed), similar to how echoes of the eye is entirely based around images and vision and has almost no text. this mod would require voice actors if it were to be made (but it would not need the va mod as a dependency).
@@ -94,6 +107,5 @@ it was called outer wilds nerves of darkness. black hole with planets orbiting, 
 ![image7](https://github.com/user-attachments/assets/bdab1728-4022-4ecf-84c0-1197c0936bdf)
 ![image9](https://github.com/user-attachments/assets/4e12ba95-3b81-4e21-9e4e-ad4110967a46)
 ![image10](https://github.com/user-attachments/assets/42884640-ba6c-401c-8c8c-a8b9ea30d000)
-![image12](https://github.com/user-attachments/assets/914cf10d-ff04-4b77-be3f-799ae86115a5)
 ![image13](https://github.com/user-attachments/assets/8601f307-0c95-4576-aab6-dc7ffe2601ba)
 
